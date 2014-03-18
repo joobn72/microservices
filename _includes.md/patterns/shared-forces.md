@@ -1,3 +1,5 @@
+---
+---
 * There is a team of developers working on the application
 * New team members must quickly become productive
 * The application must be easy to understand and modify

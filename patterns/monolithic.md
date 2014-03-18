@@ -5,7 +5,7 @@ layout: pattern
 
 ## Context
 
-{% markdown patterns/shared-context.md %}
+{% include patterns/shared-context.html %}
 
 ## Problem
 
@@ -13,7 +13,7 @@ What's the application's deployment architecture?
 
 ## Forces
 
-{% markdown patterns/shared-forces.md %}
+{% include patterns/shared-forces.html %}
 
 ## Solution
 

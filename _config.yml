@@ -1,4 +1,4 @@
 name: Microservices architecture
 markdown: redcarpet
 pygments: true
-exclude: [Gemfile, Gemfile.lock]
+exclude: [Gemfile, Gemfile.lock, Rakefile]

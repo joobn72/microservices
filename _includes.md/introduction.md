@@ -1,3 +1,5 @@
+---
+---
 Today, there are several trends that are forcing application architectures to evolve.
 Users expect a rich, interactive and dynamic user experience on a wide variety of clients including mobile devices.
 Applications must be highly scalable, highly available and run on cloud environments.
