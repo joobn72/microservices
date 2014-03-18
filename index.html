@@ -1,6 +1,30 @@
-<html>
-	<body>
-		All about the micro-service architecture
-	</body>
-</html>
-	
+---
+layout: index
+title: Microservices architecture
+---
+
+<div class="container-fluid">
+    {% include header.html %}
+
+    <div class="row">
+        <div class="col-xs-3">
+            <h3>Posts</h3>
+            {% for post in site.posts %}
+            <div><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="col-xs-7">
+            <h3>Microservice architecture patterns and best practices</h3>
+            {% markdown introduction.md %}
+        </div>
+        <div class="col-xs-2">
+            <h3>The patterns</h3>
+            {% markdown patterns.md %}
+        </div>
+
+    </div>
+
+    {% include footer.html %}
+
+</div>
