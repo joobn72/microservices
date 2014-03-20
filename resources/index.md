@@ -13,4 +13,9 @@ layout: misc
 
 * Article on [microservices](http://martinfowler.com/articles/microservices.html)
 
+## Victor Klang
+
+* Article on [microservices](http://klangism.tumblr.com/post/80087171446/microservices)
+
+
 
