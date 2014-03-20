@@ -17,9 +17,10 @@ What's the application's deployment architecture?
 
 ## Solution
 
-Architecture the application by applying the [Scale Cube](/articles/scalecube.html) - specifically aka. y-axis splits - and functionally decompose the application into a set of collaborating services.
-Each service implements a set of related functionality such as order management, customer management etc.
-Services can be developed and deployed independently of one another.
+Architect the application by applying the [Scale Cube](/articles/scalecube.html) (specifically y-axis scaling) and functionally decompose the application into a set of collaborating services.
+Each service implements a set of narrowly, related functions.
+For example, an application might consist of services such as the order management service, the customer management service etc.
+Services are developed and deployed independently of one another.
 
 ## Example
 
@@ -80,7 +81,7 @@ This can be a major problem for startups whose biggest challenge is often how to
 Using Y-axis is splits might make it much more difficult to iterate rapidly.
 Later on, however, when the challenge is how to scale and you need to use functional decomposition then tangled dependencies might make it difficult to decompose your monolithic application into a set of services.
 
-Another challenge is deciding how to partition the system.
+Another challenge is deciding how to partition the system into microservices.
 This is very much an art but there are number of strategies that can help.
 One approach is to partition services by verb or use case.
 For example, later on you will see that the partitioned e-commerce application has a Shipping service that’s responsible for shipping complete orders.
