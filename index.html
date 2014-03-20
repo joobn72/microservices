@@ -13,6 +13,7 @@ title: Microservices architecture
             <div><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
             </div>
             {% endfor %}
+            {% include tweets.html %}
         </div>
         <div class="col-xs-7">
             <h3>Microservice architecture patterns and best practices</h3>
