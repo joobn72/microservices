@@ -20,6 +20,15 @@ This is a simple, commonly used approach of scaling an application.
 One drawback of this approach is that because each copy potentially accesses all of the data, caches require more memory to be effective.
 Another problem with this approach is that it does not tackle the problems of increasing development and application complexity.
 
+## Y-axis scaling
+
+Unlike X-axis and Z-axis, which consist of running multiple, identical copies of the application, Y-axis axis scaling splits the application into multiple, different services.
+Each service is responsible for one or more closely related functions.
+There are a couple of different ways of decomposing the application into services.
+One approach is to use verb-based decomposition and define services that implement a single use case such as checkout.
+The other option is to decompose the application by noun and create services responsible for all operations related to a particular entity such as customer management.
+An application might use a combination of verb-based and noun-based decomposition.
+
 ## Z-axis scaling
 
 When using Z-axis scaling each server runs an identical copy of the code.

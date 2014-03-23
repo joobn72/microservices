@@ -20,7 +20,13 @@ What's the application's deployment architecture?
 Architect the application by applying the [Scale Cube](/articles/scalecube.html) (specifically y-axis scaling) and functionally decompose the application into a set of collaborating services.
 Each service implements a set of narrowly, related functions.
 For example, an application might consist of services such as the order management service, the customer management service etc.
+
+Service communicate using either synchronous protocols such as HTTP/REST or asynchronous protocols such as AMQP.
+
 Services are developed and deployed independently of one another.
+
+Each service has its own database in order to be decoupled from other services.
+When necessary, consistency is between databases is maintained using either database replication mechanisms or application-level events.
 
 ## Example
 
