@@ -7,21 +7,21 @@ title: Microservices architecture
     {% include header.html %}
 
     <div class="row">
-        <div class="col-xs-3">
+        <div class="col-md-7 col-md-push-3">
+            <h3>Microservice architecture patterns and best practices</h3>
+            {% include introduction.html %}
+        </div>
+        <div class="col-md-2 col-md-push-3" >
+            <h3>The patterns</h3>
+            {% include patterns.html %}
+        </div>
+        <div class="col-md-3 col-md-pull-9">
             <h3>Posts</h3>
             {% for post in site.posts %}
             <div><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
             </div>
             {% endfor %}
             {% include tweets.html %}
-        </div>
-        <div class="col-xs-7">
-            <h3>Microservice architecture patterns and best practices</h3>
-            {% include introduction.html %}
-        </div>
-        <div class="col-xs-2">
-            <h3>The patterns</h3>
-            {% include patterns.html %}
         </div>
 
     </div>
