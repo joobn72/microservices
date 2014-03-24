@@ -17,5 +17,8 @@ layout: misc
 
 * Article on [microservices](http://klangism.tumblr.com/post/80087171446/microservices)
 
+## Jeppe Cramon ‏[@jeppec](https://twitter.com/jeppec)
+
+* Interesting [series of articles](http://www.tigerteam.dk/category/soa/microservices/) on microservices
 
 
