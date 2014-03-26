@@ -34,7 +34,7 @@ For example, a Java web application consists of a single WAR file that runs on a
 A Rails application consists of a single directory hierarchy deployed using either, for example, Phusion Passenger on Apache/Nginx or JRuby on Tomcat.
 You can run multiple instances of the application behind a load balancer in order to scale and improve availability.
 
-![](/i/DecomposingApplications.011.jpg)
+<img class="img-responsive" src="/i/DecomposingApplications.011.jpg"></img>
 
 ## Resulting context
 

@@ -36,7 +36,7 @@ maintaining inventory and shipping orders.
 
 The application is deployed as a set of services.
 
-![](/i/DecomposingApplications.027.jpg)
+<img class="img-responsive" src="/i/DecomposingApplications.027.jpg"></img>
 
 ## Resulting context
 

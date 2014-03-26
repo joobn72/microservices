@@ -5,7 +5,8 @@ layout: misc
 
 The book, [The Art of Scalability](http://theartofscalability.com/), describes a really useful, three dimension scalability model: the [scale cube](http://akfpartners.com/techblog/2008/05/08/splitting-applications-or-services-for-scale/).
 
-![](/i/DecomposingApplications.021.jpg)
+<img class="img-responsive" src="/i/DecomposingApplications.021.jpg"></img>
+
 
 In this model, scaling an application by running clones behind a load balancer is known as X-axis scaling.
 The other two kinds of scaling are Y-axis scaling and Z-axis scaling.
