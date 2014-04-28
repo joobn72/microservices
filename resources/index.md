@@ -22,6 +22,10 @@ Jeppe Cramon ‏[@jeppec](https://twitter.com/jeppec)
 
 * Interesting [series of articles](http://www.tigerteam.dk/category/soa/microservices/) on microservices
 
+Benjamin Wootton
+
+* [Microservices - Not a free lunch!](http://contino.co.uk/blog/2013/03/31/microservices-no-free-lunch.html)
+
 # Presentations and videos
 
 Adrian Cockford:
