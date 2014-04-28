@@ -6,7 +6,7 @@ layout: misc
 
 # Events
 
-* [Russ Miles](https://twitter.com/russmiles) is organizing a [microservices conference](http://www.russmiles.com/1/post/2014/03/interesting-in-sharing-your-own-experiences-with-microservices.html) in London.
+* [Russ Miles](https://twitter.com/russmiles) is organizing a [microservices conference](https://skillsmatter.com/conferences/6312-mucon) in London.
 
 # Articles
 
@@ -23,6 +23,10 @@ Jeppe Cramon ‏[@jeppec](https://twitter.com/jeppec)
 * Interesting [series of articles](http://www.tigerteam.dk/category/soa/microservices/) on microservices
 
 # Presentations and videos
+
+Adrian Cockford:
+
+* [Presentation: QCON London - Migrating to microservices](http://qconlondon.com/dl/qcon-london-2014/slides/AdrianCockcroft_MigratingToMicroservices.pdf)
 
 Fred George
 
