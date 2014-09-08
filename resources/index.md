@@ -1,5 +1,6 @@
 ---
 layout: misc
+title: Microservices resources
 ---
 
 # Other Resources

@@ -1,5 +1,6 @@
 ---
 layout: pattern
+title: Microservices Architecture pattern
 ---
 # Pattern: Microservices Architecture
 

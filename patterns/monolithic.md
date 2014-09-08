@@ -1,5 +1,6 @@
 ---
 layout: pattern
+title: Monolithic Architecture
 ---
 # Pattern: Monolithic Architecture
 

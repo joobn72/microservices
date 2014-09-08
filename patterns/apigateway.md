@@ -1,5 +1,6 @@
 ---
 layout: pattern
+title: API gateway pattern
 ---
 # Pattern: API Gateway
 

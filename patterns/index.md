@@ -1,5 +1,6 @@
 ---
 layout: pattern
+title: A pattern language for microservices
 ---
 # A pattern language for microservices
 
