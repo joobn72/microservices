@@ -1,5 +1,6 @@
 ---
 layout: misc
+title: The Scale Cube
 ---
 # The Scale Cube
 

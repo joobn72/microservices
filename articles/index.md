@@ -1,5 +1,6 @@
 ---
 layout: misc
+title: Microservices articles
 ---
 
 # Articles about microservices
