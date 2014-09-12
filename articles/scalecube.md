@@ -61,6 +61,6 @@ Z-axis scaling has some drawbacks.
 
 * One drawback is increased application complexity.
 * We need to implement a partitioning scheme, which can be tricky especially if we ever need to repartition the data.
-* Another drawback of Z-axis scaling is that doesn’t solve the problems of increasing development and application complexity. To solve those problems we need to apply [Y-axis scaling]((/patterns/microservices.md).
+* Another drawback of Z-axis scaling is that doesn’t solve the problems of increasing development and application complexity. To solve those problems we need to apply [Y-axis scaling](/patterns/microservices.html).
 
 
