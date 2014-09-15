@@ -8,8 +8,14 @@ title: Microservices resources
 # Events
 
 * [Russ Miles](https://twitter.com/russmiles) is organizing a [microservices conference](https://skillsmatter.com/conferences/6312-mucon) in London.
+* Various [meetups](http://www.meetup.com/find/?allMeetups=false&keywords=microservices) that talk about microservices
 
 # Articles
+
+Chris Richardson
+
+* Infoq.com article on [microservices](http://www.infoq.com/articles/microservices-intro)
+* With other authors: InfoQ emag on [microservices](http://www.infoq.com/minibooks/emag-microservices)
 
 Martin Fowler
 
