@@ -16,7 +16,7 @@ title: Microservices architecture
             {% include patterns.html %}
         </div>
         <div class="col-md-3 col-md-pull-9">
-            <h3>Posts</h3>
+            <h3>Posts <a href="feed.xml"><img src="i/feed-icon-28x28.png"></a></h3>
             {% for post in site.posts %}
             <div><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
             </div>

@@ -2,3 +2,6 @@ name: Microservices architecture
 markdown: redcarpet
 pygments: true
 exclude: [Gemfile, Gemfile.lock, Rakefile]
+description:  A site dedicated to microservices
+url:          http://microservices.io
+
