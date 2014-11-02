@@ -110,6 +110,7 @@ Each utility does exactly one thing, often exceptionally well, and can be combin
 ## Related patterns
 
 The [Monolithic architecture](monolithic.html) is an alternative pattern.
+The [API Gateway pattern](apigateway.html) defines how clients access the services.
 
 ## Known uses
 
