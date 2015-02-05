@@ -13,5 +13,5 @@ A good starting point is the [Monolithic Architecture pattern](/patterns/monolit
 
 ### Example application
 
-Want to see an example? Check out [Chris Richardson example code](microservices/news/2015/01/15/example-microservice-app.html)
+Want to see an example? Check out [Chris Richardson's example code](microservices/news/2015/01/15/example-microservice-app.html)
 
