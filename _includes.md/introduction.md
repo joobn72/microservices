@@ -9,4 +9,9 @@ Consequently, it’s no longer adequate to develop simple, monolithic web applic
 This site describes a new, alternative architecture: microservices.
 Applications with a microservice architecture consist of a set of narrowly focused, independently deployable services.
 Read on to find out more about this approach and its associated trade-offs.
-A good starting point is the [Monolithic Architecture pattern](/patterns/monolithic.html)
+A good starting point is the [Monolithic Architecture pattern](/patterns/monolithic.html).
+
+### Example application
+
+Want to see an example? Check out [Chris Richardson example code](microservices/news/2015/01/15/example-microservice-app.html)
+
