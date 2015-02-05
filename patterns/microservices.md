@@ -117,7 +117,7 @@ The [API Gateway pattern](apigateway.html) defines how clients access the servic
 Most large scale web sites including [Netflix](http://techblog.netflix.com/), [Amazon](http://highscalability.com/blog/2007/9/18/amazon-architecture.html)
 and [eBay](http://www.addsimplicity.com/downloads/eBaySDForum2006-11-29.pdf) have evolved from a monolithic architecture to a microservices architecture.
 
-Netflix , which is a very popular video streaming service that’s responsible for up to 30% of internet traffic, has a large scale, service-oriented architecture.
+Netflix, which is a very popular video streaming service that’s responsible for up to 30% of internet traffic, has a large scale, service-oriented architecture.
 They handle over a billion calls per day to their video streaming API from over 800 different kinds of devices.
 Each API call  fans out to an average of six calls to backend services.
 
@@ -131,6 +131,8 @@ The application tier consists of multiple independent applications.
 Each application implements the business logic for a specific function area such as buying or selling.
 Each application uses X-axis splits and some applications such as search use Z-axis splits.
 Ebay.com also applies a combination of X-, Y- and Z-style scaling to the database tier.
+
+Chris Richardson has an [example](../microservices/news/2015/01/15/example-microservice-app.html) of a microservices-based application.
 
 ## Variations
 
