@@ -6,7 +6,7 @@ title: Monolithic Architecture
 
 ## Context
 
-{% include patterns/shared-context.html %}
+{% include patterns/monolithic-microservice-shared-context.html %}
 
 ## Problem
 
@@ -14,7 +14,7 @@ What's the application's deployment architecture?
 
 ## Forces
 
-{% include patterns/shared-forces.html %}
+{% include patterns/monolithic-microservice-shared-forces.html %}
 
 ## Solution
 

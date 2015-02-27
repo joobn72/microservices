@@ -1,0 +1,16 @@
+<h2 id="context">Context</h2>
+
+<p>You have applied either the <a href="client-side-discovery.html">Client-side Service Discovery pattern</a> or the <a href="server-side-discovery.html">Server-side Service Discovery pattern</a>.
+Service instances must be registered with the <a href="service-registry.html">service registry</a> on startup so that they can be discovered and unregistered on shutdown.</p>
+
+<h2 id="problem">Problem</h2>
+
+<p>How are service instances registered with and unregistered from the service registry?</p>
+
+<h2 id="forces">Forces</h2>
+
+<ul>
+  <li>Service instances must be registered with the service registry on startup and unregistered on shutdown</li>
+  <li>Service instances that crash must be unregistered from the service registry</li>
+  <li>Service instances that are running but incapable of handling requests must be unregistered from the service registry</li>
+</ul>
