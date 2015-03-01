@@ -93,12 +93,11 @@ Issues:
 
 ## Related patterns
 
-The [Microservices pattern](microservices.html) creates the need for this pattern.
+* The [Microservices pattern](microservices.html) creates the need for this pattern.
+* The API gateway must use either the [Client-side Discovery pattern](client-side-discovery.html) or [Server-side Discovery pattern](server-side-discovery.html) to route requests to available service instances.
 
 ## Known uses
 
 * [Netflix API Gateway](http://techblog.netflix.com/2012/07/embracing-differences-inside-netflix.html)
 
-## Variations
 
-TBD

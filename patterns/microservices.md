@@ -109,15 +109,16 @@ Each utility does exactly one thing, often exceptionally well, and can be combin
 
 ## Related patterns
 
-The [Monolithic architecture](monolithic.html) is an alternative pattern.
-The [API Gateway pattern](apigateway.html) defines how clients access the services.
+* The [Monolithic architecture](monolithic.html) is an alternative to the microservices architecture.
+* The [API Gateway pattern](apigateway.html) defines how clients access the services in a microservices architecture.
+* The [Client-side Discovery](client-side-discovery.html) and [Server-side Discovery](server-side-discovery.html) patterns are used to route requests for a client to an available service instance in a microservices architecture.
 
 ## Known uses
 
 Most large scale web sites including [Netflix](http://techblog.netflix.com/), [Amazon](http://highscalability.com/blog/2007/9/18/amazon-architecture.html)
 and [eBay](http://www.addsimplicity.com/downloads/eBaySDForum2006-11-29.pdf) have evolved from a monolithic architecture to a microservices architecture.
 
-Netflix, which is a very popular video streaming service that’s responsible for up to 30% of internet traffic, has a large scale, service-oriented architecture.
+Netflix, which is a very popular video streaming service that’s responsible for up to 30% of Internet traffic, has a large scale, service-oriented architecture.
 They handle over a billion calls per day to their video streaming API from over 800 different kinds of devices.
 Each API call  fans out to an average of six calls to backend services.
 
@@ -132,9 +133,9 @@ Each application implements the business logic for a specific function area such
 Each application uses X-axis splits and some applications such as search use Z-axis splits.
 Ebay.com also applies a combination of X-, Y- and Z-style scaling to the database tier.
 
-Chris Richardson has an [example](../microservices/news/2015/01/15/example-microservice-app.html) of a microservices-based application.
+# Example
 
-## Variations
+Chris Richardson has an [example](../microservices/news/2015/01/15/example-microservice-app.html) of a microservices-based application.
 
 
 
