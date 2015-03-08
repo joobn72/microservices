@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: Service registry
+title: Service registry pattern
 ---
 
 # Pattern: Service registry

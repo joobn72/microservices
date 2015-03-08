@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: Self Registration
+title: Self Registration pattern
 ---
 
 # Pattern: Self Registration
@@ -33,6 +33,7 @@ The benefits of the Self Registration pattern include the following:
 
 There are also some drawbacks:
 
+* Couples the service to the Service Registry
 * You must implement service registration logic in each programming language/framework that you use to write your services, e.g. NodeJS/JavaScript, Java/Scala, etc.
 * A service instance that is running yet unable to handle requests will often lack the self-awareness to unregister itself from the service registry
 

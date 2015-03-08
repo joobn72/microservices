@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: Client-side service discovery
+title: Client-side service discovery pattern
 ---
 
 # Pattern: Client-side service discovery
@@ -26,7 +26,7 @@ Client-side discovery has the following benefits:
 
 Client-side discovery also has the following drawbacks:
 
-* This pattern couples the service to the [Service Registry](service-registry.html) 
+* This pattern couples the client to the [Service Registry](service-registry.html) 
 * You need to implement client-side service discovery logic for each programming language/framework used by your application, e.g Java/Scala, JavaScript/NodeJS. 
 For example, [Netflix Prana](https://github.com/Netflix/Prana) provides an HTTP proxy-based approach to service discovery for non-JVM clients.
 

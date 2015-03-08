@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: Server-side service discovery
+title: Server-side service discovery pattern
 ---
 
 # Pattern: Server-side service discovery

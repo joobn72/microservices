@@ -51,6 +51,8 @@ How do the clients of a Microservices-based application access the individual se
 * Network performance is different for different types of clients. For example, a mobile network is typically much slower and has much higher latency than a non-mobile network. And, of course, any WAN is much slower than a LAN. 
 This means that a native mobile client uses a network that has very difference performance characteristics than a LAN used by a server-side web application. The server-side web application can make multiple requests to backend services without impacting the user experience where as a mobile client can only make a few.
 
+* The number of service instances and their locations (host+port) changes dynamically
+
 * Partitioning into services can change over time and should be hidden from clients
 
 ## Solution
@@ -76,9 +78,10 @@ The [Netflix API gateway](http://techblog.netflix.com/2013/01/optimizing-netflix
 Using an API gateway has the following benefits:
 
 * Insulates the clients from how the application is partitioned into microservices
+* Insulates the clients from the problem of determining the locations of service instances
 * Provides the optimal API for each client
-* Simplifies the client by moving logic for calling multiple services from the client to API gateway
 * Reduces the number of requests/roundtrips. For example, the API gateway enables clients to retrieve data from multiple services with a single round-trip. Fewer requests also means less overhead and improves the user experience. An API gateway is essential for mobile applications.
+* Simplifies the client by moving logic for calling multiple services from the client to API gateway
 
 
 The API gateway pattern has some drawbacks:

@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: 3rd Party Registration
+title: 3rd Party Registration Pattern
 ---
 
 # Pattern: 3rd Party Registration

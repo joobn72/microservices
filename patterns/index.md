@@ -12,6 +12,13 @@ The beginnings of a [pattern language](http://en.wikipedia.org/wiki/Pattern_lang
 * [Microservices architecture](microservices.html)
 * [API gateway](apigateway.html)
 
+# Deployment patterns
+
+* [Multiple service instances per host](deployment/multiple-services-per-host.html)
+* [Service instance per host](deployment/single-service-per-host.html)
+* [Service instance per VM](deployment/service-per-vm.html)
+* [Service instance per Container](deployment/service-per-container.html)
+
 
 # Service discovery
 
