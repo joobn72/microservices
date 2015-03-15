@@ -1,7 +1,7 @@
 ---
 layout: misc
 title:  "Service discovery patterns"
-date:   2015-03-15 16:00:00
+date:   2015-03-01 16:00:00
 categories: microservices news
 ---
 
