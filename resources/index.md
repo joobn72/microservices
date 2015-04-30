@@ -7,8 +7,6 @@ title: Microservices resources
 
 # Events
 
-* [microXchg 2015](http://microxchg.io/) is a conference about microservices and will take place in Berlin in February 2015.
-* [Russ Miles](https://twitter.com/russmiles) is organizing a [microservices conference](https://skillsmatter.com/conferences/6312-mucon) in London.
 * Various [meetups](http://www.meetup.com/find/?allMeetups=false&keywords=microservices) that talk about microservices
 
 # Articles
