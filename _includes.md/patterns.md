@@ -15,5 +15,4 @@
 
 Join the [microservices google group](https://groups.google.com/forum/#!forum/microservices)
 
-Got a question? [Contact me](https://chrisrichardson.wufoo.com/forms/zgp4xr60erb04x/)
-
+Got a question? Need training? [Contact me](https://chrisrichardson.wufoo.com/forms/zgp4xr60erb04x/)
