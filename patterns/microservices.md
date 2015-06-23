@@ -22,7 +22,7 @@ Architect the application by applying the [Scale Cube](/articles/scalecube.html)
 Each service implements a set of narrowly, related functions.
 For example, an application might consist of services such as the order management service, the customer management service etc.
 
-Service communicate using either synchronous protocols such as HTTP/REST or asynchronous protocols such as AMQP.
+Services communicate using either synchronous protocols such as HTTP/REST or asynchronous protocols such as AMQP.
 
 Services are developed and deployed independently of one another.
 
@@ -73,10 +73,10 @@ This solution has a number of drawbacks:
    * Implementing use cases that span multiple services without using distributed transactions is difficult
    * Implementing use cases that span multiple services requires careful coordination between the teams
 
- * Deployment complexity
+ * Deployment complexity.
    In production, there is also the operational complexity of deploying and managing a system comprised of many different service types.
 
- * Increased memory consumption
+ * Increased memory consumption.
    The microservices architecture replaces N monolithic application instances with NxM services instances.
    If each service runs in its own JVM (or equivalent), which is usually necessary to isolate the instances, then there is the overhead of M times as many JVM runtimes.
    Moreover, if each service runs on its own VM (e.g. EC2 instance), as is the case at Netflix, the overhead is even higher.
@@ -85,22 +85,22 @@ One challenge with using this approach is deciding when it makes sense to use it
 When developing the first version of an application, you often do not have the problems that this approach solves.
 Moreover, using an elaborate, distributed architecture will slow down development.
 This can be a major problem for startups whose biggest challenge is often how to rapidly evolve the business model and accompanying application.
-Using Y-axis is splits might make it much more difficult to iterate rapidly.
-Later on, however, when the challenge is how to scale and you need to use functional decomposition then tangled dependencies might make it difficult to decompose your monolithic application into a set of services.
+Using Y-axis splits might make it much more difficult to iterate rapidly.
+Later on, however, when the challenge is how to scale and you need to use functional decomposition, the tangled dependencies might make it difficult to decompose your monolithic application into a set of services.
 
 Another challenge is deciding how to partition the system into microservices.
-This is very much an art but there are number of strategies that can help.
+This is very much an art, but there are a number of strategies that can help.
 One approach is to partition services by verb or use case.
 For example, later on you will see that the partitioned e-commerce application has a Shipping service that’s responsible for shipping complete orders.
 Another common example of partitioning by verb is a login service that implements the login use case.
 
 Another partitioning approach is to partition the system by nouns or resources.
 This kind of service is responsible for all operations that operate on entities/resources of a given type.
-For example, later on you will see how it makes sense for the e-commerce system to have an Inventory service that keeps tracks whether products are in stock.
+For example, later on you will see how it makes sense for the e-commerce system to have an Inventory service that keeps track of whether products are in stock.
 
 Ideally, each service should have only a small set of responsibilities.
-(Uncle) Bob Martin talks about designing classes using the [Single Responsible Principle (SRP)](http://www.objectmentor.com/resources/articles/srp.pdf).
-The SRP defines a responsibility of class as a reason to change, and that a class should only have one reason to change.
+(Uncle) Bob Martin talks about designing classes using the [Single Responsibility Principle (SRP)](http://www.objectmentor.com/resources/articles/srp.pdf).
+The SRP defines a responsibility of a class as a reason to change, and states that a class should only have one reason to change.
 It make sense to apply the SRP to service design as well.
 
 Another analogy that helps with service design is the design of Unix utilities.
@@ -136,8 +136,3 @@ Ebay.com also applies a combination of X-, Y- and Z-style scaling to the databas
 # Example
 
 Chris Richardson has an [example](../microservices/news/2015/01/15/example-microservice-app.html) of a microservices-based application.
-
-
-
-
-

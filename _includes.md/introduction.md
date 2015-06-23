@@ -17,5 +17,5 @@ Want to see an example? Check out [Chris Richardson's example code](microservice
 
 ### Got questions? Need training?
 
-We do presentations, consulting and training.
-Please [contact me](https://chrisrichardson.wufoo.com/forms/zgp4xr60erb04x/).
+We do consulting and training workshops.
+Please [contact me](http://www.chrisrichardson.net/training.html).

@@ -44,7 +44,3 @@ The beginnings of a [pattern language](http://en.wikipedia.org/wiki/Pattern_lang
 * [Service registry](service-registry.html)
 * [Self registration](self-registration.html)
 * [3rd party registration](3rd-party-registration.html)
-
-
-
-
