@@ -15,4 +15,6 @@
 
 Join the [microservices google group](https://groups.google.com/forum/#!forum/microservices)
 
-Got a question? Need training? [Contact me](http://www.chrisrichardson.net/microserviceslanding.html)
+<div class="bg-info well well-lg" style="width:80%;">
+  <h2>Got a question? Need training?</h2> <a class="btn btn-primary" href="http://www.chrisrichardson.net/microserviceslanding.html">Contact me</a>
+</div>
