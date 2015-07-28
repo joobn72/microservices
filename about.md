@@ -4,6 +4,8 @@ title: About microservices.io
 ---
 # About microservices.io
 
+<img class="img-circle" src="http://gravatar.com/avatar/a290a8643359e2495e1c6312e662012f">
+
 Created by Chris Richardson.
 
 * [@crichardson](https://twitter.com/crichardson)
