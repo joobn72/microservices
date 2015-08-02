@@ -12,6 +12,11 @@ title: Server-side service discovery pattern
 When making a request to a service, the client makes a request via a router (a.k.a load balancer) that runs at a well known location.
 The router queries a [service registry](service-registry.html), which might be built into the router, and forwards the request to an available service instance.
 
+The following diagram shows the structure of this pattern.
+
+<img class="img-responsive" src="/i/servicediscovery/server-side-discovery.jpg">
+
+
 ## Examples
 
 An AWS Elastic Load Balancer (ELB) is an example of a server-side discovery router.

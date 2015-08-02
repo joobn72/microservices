@@ -11,6 +11,11 @@ title: Client-side service discovery pattern
 
 When making a request to a service, the client obtains the location of a service instance by querying a [Service Registry](service-registry.html), which knows the locations of all service instances.
 
+The following diagram shows the structure of this pattern.
+
+<img class="img-responsive" src="/i/servicediscovery/client-side-discovery.jpg">
+
+
 ## Examples
 
 [Netflix OSS](http://netflix.github.io/) provides a good example of client-side discovery:
@@ -26,13 +31,11 @@ Client-side discovery has the following benefits:
 
 Client-side discovery also has the following drawbacks:
 
-* This pattern couples the client to the [Service Registry](service-registry.html) 
-* You need to implement client-side service discovery logic for each programming language/framework used by your application, e.g Java/Scala, JavaScript/NodeJS. 
+* This pattern couples the client to the [Service Registry](service-registry.html)
+* You need to implement client-side service discovery logic for each programming language/framework used by your application, e.g Java/Scala, JavaScript/NodeJS.
 For example, [Netflix Prana](https://github.com/Netflix/Prana) provides an HTTP proxy-based approach to service discovery for non-JVM clients.
 
 ## Related patterns
 
 * [Service Registry](service-registry.html)
 * [Server Side Discovery](server-side-discovery.html) is an alternative solution to this problem.
-
-
