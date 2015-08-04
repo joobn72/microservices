@@ -16,5 +16,7 @@
 Join the [microservices google group](https://groups.google.com/forum/#!forum/microservices)
 
 <div class="bg-info well well-lg" style="width:80%;">
-  <h2>Got a question? Need training?</h2> <a class="btn btn-primary" href="http://www.chrisrichardson.net/microserviceslanding.html">Contact me</a>
+  <h3>Got a question? Need training?</h3>
+  <p>I'll be in <b>Oslo</b> in September and <b>London</b> in October!</p>
+  <a class="btn btn-primary" href="http://www.chrisrichardson.net/microserviceslanding.html">Contact me</a>
 </div>
